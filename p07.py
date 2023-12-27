@@ -3,7 +3,7 @@
 import collections
 from pathlib import Path
 
-with open(Path("i7.txt"), "r", encoding="utf8") as f:
+with open(Path("i07.txt"), "r", encoding="utf8") as f:
     data = f.read().strip().splitlines()
 
 strength = "AKQJT98765432"

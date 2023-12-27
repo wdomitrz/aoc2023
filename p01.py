@@ -2,7 +2,7 @@
 
 from pathlib import Path
 
-with open(Path("i1.txt"), "r", encoding="utf8") as f:
+with open(Path("i01.txt"), "r", encoding="utf8") as f:
     data = f.read().strip().splitlines()
 
 

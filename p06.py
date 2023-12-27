@@ -3,7 +3,7 @@
 import math
 from pathlib import Path
 
-with open(Path("i6.txt"), "r", encoding="utf8") as f:
+with open(Path("i06.txt"), "r", encoding="utf8") as f:
     data = f.read().strip().splitlines()
 
 ts = map(int, data[0].split()[1:])

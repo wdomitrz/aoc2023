@@ -4,7 +4,7 @@ import bisect
 import math
 from pathlib import Path
 
-with open(Path("i5.txt"), "r", encoding="utf8") as f:
+with open(Path("i05.txt"), "r", encoding="utf8") as f:
     data = f.read().strip()
 
 seeds = list(map(int, data.splitlines()[0].split(": ")[-1].split()))

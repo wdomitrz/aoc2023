@@ -4,7 +4,7 @@ import itertools
 import math
 from pathlib import Path
 
-with open(Path("i8.txt"), "r", encoding="utf8") as f:
+with open(Path("i08.txt"), "r", encoding="utf8") as f:
     data = f.read().strip().splitlines()
 
 instr = data[0]
