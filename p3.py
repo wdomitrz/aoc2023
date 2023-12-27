@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from math import prod
+import math
 from pathlib import Path
 
 with open(Path("i3.txt"), "r", encoding="utf8") as f:
@@ -81,7 +81,7 @@ def do2(data):
     res = 0
     for a in p_res.values():
         if len(a) == 2:
-            res += prod(a)
+            res += math.prod(a)
     return res
 
 

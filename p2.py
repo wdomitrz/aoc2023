@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from math import prod
+import math
 from pathlib import Path
 
 with open(Path("i2.txt"), "r", encoding="utf8") as f:
@@ -45,7 +45,7 @@ def do2(line):
             if p2_res.get(color, 0) < int(number):
                 p2_res[color] = int(number)
 
-    return prod(p2_res.values())
+    return math.prod(p2_res.values())
 
 
 print(sum(do2(line) for line in data))
